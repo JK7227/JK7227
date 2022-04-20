@@ -39,7 +39,7 @@ public class AdactinDatas {
 		};
 		return obj1;
 	
-
 	}
+
 
 }
