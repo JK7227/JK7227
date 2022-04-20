@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="password" value="Life@heaven"/>
+  <parameter name="firstname" value="Jothi"/>
+  <parameter name="cvv" value="123"/>
+  <parameter name="checkin" value="08/02/2022"/>
+  <parameter name="address" value="No.8, ttk nagar, bavani st, chennai-45"/>
+  <parameter name="cardnumber" value="1234567890123456"/>
+  <parameter name="checkout" value="09/02/2022"/>
+  <parameter name="username" value="jothikrishna"/>
+  <parameter name="lastname" value="Krishna"/>
+  <test name="Test1">
+    <parameter name="password" value="Life@heaven"/>
+    <parameter name="firstname" value="Jothi"/>
+    <parameter name="cvv" value="123"/>
+    <parameter name="checkin" value="08/02/2022"/>
+    <parameter name="address" value="No.8, ttk nagar, bavani st, chennai-45"/>
+    <parameter name="cardnumber" value="1234567890123456"/>
+    <parameter name="checkout" value="09/02/2022"/>
+    <parameter name="username" value="jothikrishna"/>
+    <parameter name="lastname" value="Krishna"/>
+    <classes>
+      <class name="test.ng.AdactinHotelBase"/>
+    </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Failed suite [Suite] -->

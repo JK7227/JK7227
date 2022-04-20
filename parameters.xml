@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test1">
+  <parameter name="username" value="jothikrishna"></parameter>
+  <parameter name="password" value="Life@heaven" ></parameter>
+  <parameter name="checkin" value= "08/02/2022"></parameter>
+  <parameter name="checkout" value= "09/02/2022"></parameter>
+  <parameter name="firstname" value= "Jothi"></parameter>
+  <parameter name="lastname" value= "Krishna"></parameter>
+  <parameter name="address" value= "No.8, ttk nagar, bavani st, chennai-45"></parameter>
+  <parameter name="cardnumber" value= "1234567890123456"></parameter>
+  <parameter name="cvv" value= "123"></parameter>
+    <classes>
+      <class name="test.ng.AdactinHotelBase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
